@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","16132","Validate Confirm","chromium","2025-11-28","passed","2025-11-28","","Alert.spec.js","",""
+"","14533","Validate Alerts","chromium","2025-11-28","passed","2025-11-28","","Alert.spec.js","",""
+"","15675","Validate Prompt","chromium","2025-11-28","passed","2025-11-28","","Alert.spec.js","",""
