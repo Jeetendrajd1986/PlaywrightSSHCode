@@ -1,0 +1,115 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "image not displaying" [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+        - img "image not displaying" [ref=e8]
+      - generic [ref=e9]:
+        - heading "Automation Demo Site" [level=1] [ref=e10]
+        - link "Robotic process automation" [ref=e11] [cursor=pointer]:
+          - img [ref=e13]
+          - text: Robotic process automation
+    - navigation [ref=e15]:
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - link "Home" [ref=e20] [cursor=pointer]:
+            - /url: Index.html
+        - listitem [ref=e21]:
+          - link "Register" [ref=e22] [cursor=pointer]:
+            - /url: Register.html
+        - listitem [ref=e23]:
+          - link "WebTable" [ref=e24] [cursor=pointer]:
+            - /url: WebTable.html
+        - listitem [ref=e25]:
+          - link "SwitchTo" [ref=e26] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e27]: 
+        - listitem [ref=e28]:
+          - link "Widgets" [ref=e29] [cursor=pointer]:
+            - /url: Widgets.html
+          - generic [ref=e30]: 
+        - listitem [ref=e31]:
+          - link "Interactions" [ref=e32] [cursor=pointer]:
+            - /url: Interactions.html
+          - generic [ref=e33]: 
+        - listitem [ref=e34]:
+          - link "Video" [ref=e35] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e36]: 
+        - listitem [ref=e37]:
+          - link "WYSIWYG" [ref=e38] [cursor=pointer]:
+            - /url: WYSIWYG.html
+          - generic [ref=e39]: 
+        - listitem [ref=e40]:
+          - link "More" [ref=e41] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e42]: 
+        - listitem [ref=e43]:
+          - link "Practice Site" [ref=e44] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+    - insertion [ref=e46]:
+      - iframe [ref=e48]:
+        
+  - generic [ref=e49]:
+    - generic [ref=e53]:
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - link "Single Iframe" [active] [ref=e58]:
+            - /url: "#Single"
+          - link "Website development services" [ref=e59] [cursor=pointer]:
+            - img [ref=e61]
+            - text: Website development services
+        - listitem [ref=e63]:
+          - link "Iframe with in an Iframe" [ref=e64] [cursor=pointer]:
+            - /url: "#Multiple"
+      - iframe [ref=e66]: <p>Your browser does not support iframes.</p>:
+        - generic [ref=f1e3]:
+          - heading "iFrame Demo" [level=5] [ref=f1e4]
+          - textbox [ref=f1e7]
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+      - generic [ref=e70]:
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+      - generic [ref=e71]:
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+      - generic [ref=e72]:
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - text: "\"@ 2016\""
+          - link "Automation Testing" [ref=e78] [cursor=pointer]:
+            - /url: "#"
+          - text: "\"All Rights Reserved.\""
+        - generic [ref=e79]:
+          - link "" [ref=e80] [cursor=pointer]:
+            - /url: https://www.facebook.com/automationtesting2016/
+            - generic [ref=e81]: 
+          - link "" [ref=e82] [cursor=pointer]:
+            - /url: https://twitter.com/krishnasakinala
+            - generic [ref=e83]: 
+          - link "" [ref=e84] [cursor=pointer]:
+            - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+            - generic [ref=e85]: 
+          - link "" [ref=e86] [cursor=pointer]:
+            - /url: https://plus.google.com/105286300926085335367
+            - generic [ref=e87]: 
+          - link "" [ref=e88] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+            - generic [ref=e89]: 
+```

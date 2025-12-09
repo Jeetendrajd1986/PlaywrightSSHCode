@@ -1,0 +1,241 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "image not displaying" [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+        - img "image not displaying" [ref=e8]
+      - heading "Automation Demo Site" [level=1] [ref=e10]
+    - navigation [ref=e11]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: Index.html
+        - listitem [ref=e17]:
+          - link "Register" [ref=e18] [cursor=pointer]:
+            - /url: Register.html
+        - listitem [ref=e19]:
+          - link "WebTable" [ref=e20] [cursor=pointer]:
+            - /url: WebTable.html
+        - listitem [ref=e21]:
+          - link "SwitchTo" [ref=e22] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e23]: 
+        - listitem [ref=e24]:
+          - link "Widgets" [ref=e25] [cursor=pointer]:
+            - /url: Widgets.html
+          - generic [ref=e26]: 
+        - listitem [ref=e27]:
+          - link "Interactions" [ref=e28] [cursor=pointer]:
+            - /url: Interactions.html
+          - generic [ref=e29]: 
+        - listitem [ref=e30]:
+          - link "Video" [ref=e31] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e32]: 
+        - listitem [ref=e33]:
+          - link "WYSIWYG" [ref=e34] [cursor=pointer]:
+            - /url: WYSIWYG.html
+          - generic [ref=e35]: 
+        - listitem [ref=e36]:
+          - link "More" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e38]: 
+        - listitem [ref=e39]:
+          - link "Practice Site" [ref=e40] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+    - insertion [ref=e42]:
+      - iframe [ref=e44]:
+        - generic [active] [ref=f9e1]:
+          - generic [ref=f9e6]:
+            - generic [ref=f9e7]:
+              - generic "CrowdStrike®" [ref=f9e9]:
+                - link "2025 Global Threat Report" [ref=f9e10] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwJhbUeI3adGUAd-V_tMPxfqVuQfJp5KggwHUr8P-wROUxvG4hkIQASCPvrcvYOWCgIC8DqABhLur_ALIAQGoAwHIA8sEqgTwAU_QLx96UPyFDidcbdLAinoIHRyvnW68LTjBrg_l3HeMOJFsbqfRE3GYTAgSZC5m90wikvBFhX4BeYelXv6UDZ0bvtlNgdy0Q3MYSuJF7W5zRJXU2XF-Nmi9ARhqGBY3TOc0fG39bTZxN6GQXPC-aOD4D3L5ekXAnNJimzKFTp7Vk9Zmg_IyT9MhenhlkMT6LZAu6VaNZm0Gscx73jzrBtfojR4J4nKBnwF_BGIx1Fzu3kiFwKF2s0i7pvvtCQ3V2vjfpKCOToLNdJeY0k3o4ZOZar-Mrfe4axZ1Tl7FZp6O27aoPM9-d0dzEfttZdvhusAE4MahgZUFiAW9-72tU4AHgbSfsQGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlip173Ij7CRA7EJ6HUFz6Xj5jyACgGYCwHICwGiDAOQAQHaDBAKChDgj6Oc-JzyoUcSAgEDqg0CSU7IDQHqDRMI9YfSyI-wkQMV34p_BB1FfSV38A0CiA4J2BMNiBQB0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKkZhgBIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIkYHDyI-wkQMV34p_BB1FfSV3EAEYASAAEgKghvD_BwE&num=1&cid=CAQSvgEAwksa0b7seN8ZJ7nYYSClCIC8FhGsT2JKeZbh6gRhnWJ5cDFgcIor16pNocXiSlgAonl5P0UY_wpSnIO_pR3Qbqsb_EeukWAKrmAcnSgpRtoE5TQwObWjcTgmwAgXwgM2UTmXUvUZFCNh0j96ZlPW3iyLTW55crRVTf5Qf3ayUOhaLlbApiX7ZkHbPT-qCvWPvyUr5WiqLpbIyXeD2Wknaot6KA0e8lDpXP6W0Nui0GdqGS6ZYZ_2ljrO7WCwGAE&sig=AOD64_2arBlrwFzNmh7QcpuzWTyti4Qxqw&client=ca-pub-9173866185064071&rf=1&nb=0&adurl=https://go.crowdstrike.com/2025-global-threat-report.html%3Futm_source%3Dgoog%26utm_medium%3Ddis%26utm_campaign%3Dcao%26utm_term%3Dpsp_ci_itdm%26utm_language%3Den-au%26utm_content%3Dcrwd-cao-apj-ind-en-psp-itdm-rpt-gtr-rda_v1_c1_x-cyber-2025%26cq_plac%3Ddemo.automationtesting.in%26gad_source%3D5%26gad_campaignid%3D22375529917%26gclid%3DEAIaIQobChMIkYHDyI-wkQMV34p_BB1FfSV3EAEYASAAEgKghvD_BwE
+              - generic [ref=f9e11]:
+                - link "Get firsthand observations from our front-line cyber responders and analysts." [ref=f9e13] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwJhbUeI3adGUAd-V_tMPxfqVuQfJp5KggwHUr8P-wROUxvG4hkIQASCPvrcvYOWCgIC8DqABhLur_ALIAQGoAwHIA8sEqgTwAU_QLx96UPyFDidcbdLAinoIHRyvnW68LTjBrg_l3HeMOJFsbqfRE3GYTAgSZC5m90wikvBFhX4BeYelXv6UDZ0bvtlNgdy0Q3MYSuJF7W5zRJXU2XF-Nmi9ARhqGBY3TOc0fG39bTZxN6GQXPC-aOD4D3L5ekXAnNJimzKFTp7Vk9Zmg_IyT9MhenhlkMT6LZAu6VaNZm0Gscx73jzrBtfojR4J4nKBnwF_BGIx1Fzu3kiFwKF2s0i7pvvtCQ3V2vjfpKCOToLNdJeY0k3o4ZOZar-Mrfe4axZ1Tl7FZp6O27aoPM9-d0dzEfttZdvhusAE4MahgZUFiAW9-72tU4AHgbSfsQGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlip173Ij7CRA7EJ6HUFz6Xj5jyACgGYCwHICwGiDAOQAQHaDBAKChDgj6Oc-JzyoUcSAgEDqg0CSU7IDQHqDRMI9YfSyI-wkQMV34p_BB1FfSV38A0CiA4J2BMNiBQB0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKkZhgBIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIkYHDyI-wkQMV34p_BB1FfSV3EAEYASAAEgKghvD_BwE&num=1&cid=CAQSvgEAwksa0b7seN8ZJ7nYYSClCIC8FhGsT2JKeZbh6gRhnWJ5cDFgcIor16pNocXiSlgAonl5P0UY_wpSnIO_pR3Qbqsb_EeukWAKrmAcnSgpRtoE5TQwObWjcTgmwAgXwgM2UTmXUvUZFCNh0j96ZlPW3iyLTW55crRVTf5Qf3ayUOhaLlbApiX7ZkHbPT-qCvWPvyUr5WiqLpbIyXeD2Wknaot6KA0e8lDpXP6W0Nui0GdqGS6ZYZ_2ljrO7WCwGAE&sig=AOD64_2arBlrwFzNmh7QcpuzWTyti4Qxqw&client=ca-pub-9173866185064071&rf=1&nb=7&adurl=https://go.crowdstrike.com/2025-global-threat-report.html%3Futm_source%3Dgoog%26utm_medium%3Ddis%26utm_campaign%3Dcao%26utm_term%3Dpsp_ci_itdm%26utm_language%3Den-au%26utm_content%3Dcrwd-cao-apj-ind-en-psp-itdm-rpt-gtr-rda_v1_c1_x-cyber-2025%26cq_plac%3Ddemo.automationtesting.in%26gad_source%3D5%26gad_campaignid%3D22375529917%26gclid%3DEAIaIQobChMIkYHDyI-wkQMV34p_BB1FfSV3EAEYASAAEgKghvD_BwE
+                - link [ref=f9e14] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwJhbUeI3adGUAd-V_tMPxfqVuQfJp5KggwHUr8P-wROUxvG4hkIQASCPvrcvYOWCgIC8DqABhLur_ALIAQGoAwHIA8sEqgTwAU_QLx96UPyFDidcbdLAinoIHRyvnW68LTjBrg_l3HeMOJFsbqfRE3GYTAgSZC5m90wikvBFhX4BeYelXv6UDZ0bvtlNgdy0Q3MYSuJF7W5zRJXU2XF-Nmi9ARhqGBY3TOc0fG39bTZxN6GQXPC-aOD4D3L5ekXAnNJimzKFTp7Vk9Zmg_IyT9MhenhlkMT6LZAu6VaNZm0Gscx73jzrBtfojR4J4nKBnwF_BGIx1Fzu3kiFwKF2s0i7pvvtCQ3V2vjfpKCOToLNdJeY0k3o4ZOZar-Mrfe4axZ1Tl7FZp6O27aoPM9-d0dzEfttZdvhusAE4MahgZUFiAW9-72tU4AHgbSfsQGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlip173Ij7CRA7EJ6HUFz6Xj5jyACgGYCwHICwGiDAOQAQHaDBAKChDgj6Oc-JzyoUcSAgEDqg0CSU7IDQHqDRMI9YfSyI-wkQMV34p_BB1FfSV38A0CiA4J2BMNiBQB0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKkZhgBIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIkYHDyI-wkQMV34p_BB1FfSV3EAEYASAAEgKghvD_BwE&num=1&cid=CAQSvgEAwksa0b7seN8ZJ7nYYSClCIC8FhGsT2JKeZbh6gRhnWJ5cDFgcIor16pNocXiSlgAonl5P0UY_wpSnIO_pR3Qbqsb_EeukWAKrmAcnSgpRtoE5TQwObWjcTgmwAgXwgM2UTmXUvUZFCNh0j96ZlPW3iyLTW55crRVTf5Qf3ayUOhaLlbApiX7ZkHbPT-qCvWPvyUr5WiqLpbIyXeD2Wknaot6KA0e8lDpXP6W0Nui0GdqGS6ZYZ_2ljrO7WCwGAE&sig=AOD64_2arBlrwFzNmh7QcpuzWTyti4Qxqw&client=ca-pub-9173866185064071&rf=1&nb=8&adurl=https://go.crowdstrike.com/2025-global-threat-report.html%3Futm_source%3Dgoog%26utm_medium%3Ddis%26utm_campaign%3Dcao%26utm_term%3Dpsp_ci_itdm%26utm_language%3Den-au%26utm_content%3Dcrwd-cao-apj-ind-en-psp-itdm-rpt-gtr-rda_v1_c1_x-cyber-2025%26cq_plac%3Ddemo.automationtesting.in%26gad_source%3D5%26gad_campaignid%3D22375529917%26gclid%3DEAIaIQobChMIkYHDyI-wkQMV34p_BB1FfSV3EAEYASAAEgKghvD_BwE
+                  - img [ref=f9e15]
+            - generic "CrowdStrike®" [ref=f9e17]:
+              - link "CrowdStrike®" [ref=f9e18] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwJhbUeI3adGUAd-V_tMPxfqVuQfJp5KggwHUr8P-wROUxvG4hkIQASCPvrcvYOWCgIC8DqABhLur_ALIAQGoAwHIA8sEqgTwAU_QLx96UPyFDidcbdLAinoIHRyvnW68LTjBrg_l3HeMOJFsbqfRE3GYTAgSZC5m90wikvBFhX4BeYelXv6UDZ0bvtlNgdy0Q3MYSuJF7W5zRJXU2XF-Nmi9ARhqGBY3TOc0fG39bTZxN6GQXPC-aOD4D3L5ekXAnNJimzKFTp7Vk9Zmg_IyT9MhenhlkMT6LZAu6VaNZm0Gscx73jzrBtfojR4J4nKBnwF_BGIx1Fzu3kiFwKF2s0i7pvvtCQ3V2vjfpKCOToLNdJeY0k3o4ZOZar-Mrfe4axZ1Tl7FZp6O27aoPM9-d0dzEfttZdvhusAE4MahgZUFiAW9-72tU4AHgbSfsQGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlip173Ij7CRA7EJ6HUFz6Xj5jyACgGYCwHICwGiDAOQAQHaDBAKChDgj6Oc-JzyoUcSAgEDqg0CSU7IDQHqDRMI9YfSyI-wkQMV34p_BB1FfSV38A0CiA4J2BMNiBQB0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKkZhgBIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIkYHDyI-wkQMV34p_BB1FfSV3EAEYASAAEgKghvD_BwE&num=1&cid=CAQSvgEAwksa0b7seN8ZJ7nYYSClCIC8FhGsT2JKeZbh6gRhnWJ5cDFgcIor16pNocXiSlgAonl5P0UY_wpSnIO_pR3Qbqsb_EeukWAKrmAcnSgpRtoE5TQwObWjcTgmwAgXwgM2UTmXUvUZFCNh0j96ZlPW3iyLTW55crRVTf5Qf3ayUOhaLlbApiX7ZkHbPT-qCvWPvyUr5WiqLpbIyXeD2Wknaot6KA0e8lDpXP6W0Nui0GdqGS6ZYZ_2ljrO7WCwGAE&sig=AOD64_2arBlrwFzNmh7QcpuzWTyti4Qxqw&client=ca-pub-9173866185064071&rf=1&nb=1&adurl=https://go.crowdstrike.com/2025-global-threat-report.html%3Futm_source%3Dgoog%26utm_medium%3Ddis%26utm_campaign%3Dcao%26utm_term%3Dpsp_ci_itdm%26utm_language%3Den-au%26utm_content%3Dcrwd-cao-apj-ind-en-psp-itdm-rpt-gtr-rda_v1_c1_x-cyber-2025%26cq_plac%3Ddemo.automationtesting.in%26gad_source%3D5%26gad_campaignid%3D22375529917%26gclid%3DEAIaIQobChMIkYHDyI-wkQMV34p_BB1FfSV3EAEYASAAEgKghvD_BwE
+          - img [ref=f9e22] [cursor=pointer]
+          - button [ref=f9e24] [cursor=pointer]:
+            - img [ref=f9e25]
+          - iframe
+  - generic [ref=e45]:
+    - generic [ref=e49]:
+      - list [ref=e52]:
+        - listitem [ref=e53]:
+          - link "Single Iframe" [ref=e54] [cursor=pointer]:
+            - /url: "#Single"
+        - listitem [ref=e55]:
+          - link "Iframe with in an Iframe" [expanded] [active] [ref=e56]:
+            - /url: "#Multiple"
+      - iframe [ref=e58]: <p>Your browser does not support iframes.</p>:
+        - generic [ref=f2e4]:
+          - heading "Nested iFrames" [level=5] [ref=f2e5]
+          - iframe [ref=f2e6]: <p>Your browser does not support iframes.</p>:
+            - generic [ref=f3e3]:
+              - heading "iFrame Demo" [level=5] [ref=f3e4]
+              - textbox [ref=f3e7]
+    - generic [ref=e60]:
+      - insertion [ref=e63]:
+        - generic [ref=e65]:
+          - generic "These are topics related to the article that might interest you" [ref=e66]: Discover more
+          - link "Cloud computing services" [ref=e67] [cursor=pointer]:
+            - img [ref=e69]
+            - text: Cloud computing services
+          - link "Cross-browser testing platforms" [ref=e71] [cursor=pointer]:
+            - img [ref=e73]
+            - text: Cross-browser testing platforms
+          - link "Responsive design templates" [ref=e75] [cursor=pointer]:
+            - img [ref=e77]
+            - text: Responsive design templates
+          - link "Web frame tutorial" [ref=e79] [cursor=pointer]:
+            - img [ref=e81]
+            - text: Web frame tutorial
+          - link "Iframe integration support" [ref=e83] [cursor=pointer]:
+            - img [ref=e85]
+            - text: Iframe integration support
+          - link "Website development services" [ref=e87] [cursor=pointer]:
+            - img [ref=e89]
+            - text: Website development services
+          - link "Selenium automation courses" [ref=e91] [cursor=pointer]:
+            - img [ref=e93]
+            - text: Selenium automation courses
+          - link "Website hosting plans" [ref=e95] [cursor=pointer]:
+            - img [ref=e97]
+            - text: Website hosting plans
+          - link "Virtual private servers" [ref=e99] [cursor=pointer]:
+            - img [ref=e101]
+            - text: Virtual private servers
+          - link "E-commerce website builders" [ref=e103] [cursor=pointer]:
+            - img [ref=e105]
+            - text: E-commerce website builders
+      - insertion [ref=e109]:
+        - generic [ref=e111]:
+          - generic "These are topics related to the article that might interest you" [ref=e112]: Discover more
+          - link "JavaScript programming guides" [ref=e113] [cursor=pointer]:
+            - img [ref=e115]
+            - text: JavaScript programming guides
+          - link "API testing frameworks" [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - text: API testing frameworks
+          - link "UI UX design services" [ref=e121] [cursor=pointer]:
+            - img [ref=e123]
+            - text: UI UX design services
+          - link "Quality assurance solutions" [ref=e125] [cursor=pointer]:
+            - img [ref=e127]
+            - text: Quality assurance solutions
+          - link "browser" [ref=e129] [cursor=pointer]:
+            - img [ref=e131]
+            - text: browser
+          - link "Cloud computing services" [ref=e133] [cursor=pointer]:
+            - img [ref=e135]
+            - text: Cloud computing services
+          - link "Robotic process automation" [ref=e137] [cursor=pointer]:
+            - img [ref=e139]
+            - text: Robotic process automation
+          - link "E-commerce website builders" [ref=e141] [cursor=pointer]:
+            - img [ref=e143]
+            - text: E-commerce website builders
+          - link "Content management systems CMS" [ref=e145] [cursor=pointer]:
+            - img [ref=e147]
+            - text: Content management systems CMS
+          - link "Website development services" [ref=e149] [cursor=pointer]:
+            - img [ref=e151]
+            - text: Website development services
+      - insertion [ref=e155]:
+        - generic [ref=e157]:
+          - generic "These are topics related to the article that might interest you" [ref=e158]: Discover more
+          - link "Automation Testing" [ref=e159] [cursor=pointer]:
+            - img [ref=e161]
+            - text: Automation Testing
+          - link "Quality assurance solutions" [ref=e163] [cursor=pointer]:
+            - img [ref=e165]
+            - text: Quality assurance solutions
+          - link "Responsive design templates" [ref=e167] [cursor=pointer]:
+            - img [ref=e169]
+            - text: Responsive design templates
+          - link "HTML frame examples" [ref=e171] [cursor=pointer]:
+            - img [ref=e173]
+            - text: HTML frame examples
+          - link "Test automation" [ref=e175] [cursor=pointer]:
+            - img [ref=e177]
+            - text: Test automation
+          - link "Software testing certifications" [ref=e179] [cursor=pointer]:
+            - img [ref=e181]
+            - text: Software testing certifications
+          - link "Web browser" [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - text: Web browser
+          - link "Test automation consulting" [ref=e187] [cursor=pointer]:
+            - img [ref=e189]
+            - text: Test automation consulting
+          - link "E-commerce website builders" [ref=e191] [cursor=pointer]:
+            - img [ref=e193]
+            - text: E-commerce website builders
+          - link "Virtual private servers" [ref=e195] [cursor=pointer]:
+            - img [ref=e197]
+            - text: Virtual private servers
+      - insertion [ref=e201]:
+        - generic [ref=e203]:
+          - generic "These are topics related to the article that might interest you" [ref=e204]: Discover more
+          - link "Technical support services" [ref=e205] [cursor=pointer]:
+            - img [ref=e207]
+            - text: Technical support services
+          - link "Iframe testing guide" [ref=e209] [cursor=pointer]:
+            - img [ref=e211]
+            - text: Iframe testing guide
+          - link "Programming IDEs" [ref=e213] [cursor=pointer]:
+            - img [ref=e215]
+            - text: Programming IDEs
+          - link "Web browser" [ref=e217] [cursor=pointer]:
+            - img [ref=e219]
+            - text: Web browser
+          - link "Web browser development tools" [ref=e221] [cursor=pointer]:
+            - img [ref=e223]
+            - text: Web browser development tools
+          - link "Robotic process automation" [ref=e225] [cursor=pointer]:
+            - img [ref=e227]
+            - text: Robotic process automation
+          - link "Iframe integration support" [ref=e229] [cursor=pointer]:
+            - img [ref=e231]
+            - text: Iframe integration support
+          - link "Automation software development" [ref=e233] [cursor=pointer]:
+            - img [ref=e235]
+            - text: Automation software development
+          - link "Content management systems CMS" [ref=e237] [cursor=pointer]:
+            - img [ref=e239]
+            - text: Content management systems CMS
+          - link "browser" [ref=e241] [cursor=pointer]:
+            - img [ref=e243]
+            - text: browser
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - text: "\"@ 2016\""
+          - link "Automation Testing" [ref=e250] [cursor=pointer]:
+            - /url: "#"
+          - text: "\"All Rights Reserved.\""
+        - generic [ref=e251]:
+          - link "" [ref=e252] [cursor=pointer]:
+            - /url: https://www.facebook.com/automationtesting2016/
+            - generic [ref=e253]: 
+          - link "" [ref=e254] [cursor=pointer]:
+            - /url: https://twitter.com/krishnasakinala
+            - generic [ref=e255]: 
+          - link "" [ref=e256] [cursor=pointer]:
+            - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+            - generic [ref=e257]: 
+          - link "" [ref=e258] [cursor=pointer]:
+            - /url: https://plus.google.com/105286300926085335367
+            - generic [ref=e259]: 
+          - link "" [ref=e260] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+            - generic [ref=e261]: 
+```

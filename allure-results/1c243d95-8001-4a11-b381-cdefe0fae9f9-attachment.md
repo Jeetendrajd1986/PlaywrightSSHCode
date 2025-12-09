@@ -1,0 +1,257 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "image not displaying" [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+        - img "image not displaying" [ref=e8]
+      - generic [ref=e9]:
+        - heading "Automation Demo Site" [level=1] [ref=e10]
+        - link "Automation software development" [ref=e11] [cursor=pointer]:
+          - img [ref=e13]
+          - text: Automation software development
+    - navigation [ref=e15]:
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - link "Home" [ref=e20] [cursor=pointer]:
+            - /url: Index.html
+        - listitem [ref=e21]:
+          - link "Register" [ref=e22] [cursor=pointer]:
+            - /url: Register.html
+        - listitem [ref=e23]:
+          - link "WebTable" [ref=e24] [cursor=pointer]:
+            - /url: WebTable.html
+        - listitem [ref=e25]:
+          - link "SwitchTo" [ref=e26] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e27]: 
+        - listitem [ref=e28]:
+          - link "Widgets" [ref=e29] [cursor=pointer]:
+            - /url: Widgets.html
+          - generic [ref=e30]: 
+        - listitem [ref=e31]:
+          - link "Interactions" [ref=e32] [cursor=pointer]:
+            - /url: Interactions.html
+          - generic [ref=e33]: 
+        - listitem [ref=e34]:
+          - link "Video" [ref=e35] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e36]: 
+        - listitem [ref=e37]:
+          - link "WYSIWYG" [ref=e38] [cursor=pointer]:
+            - /url: WYSIWYG.html
+          - generic [ref=e39]: 
+        - listitem [ref=e40]:
+          - link "More" [ref=e41] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e42]: 
+        - listitem [ref=e43]:
+          - link "Practice Site" [ref=e44] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+    - insertion [ref=e46]:
+      - generic [ref=e48]:
+        - generic "These are topics related to the article that might interest you" [ref=e49]: Discover more
+        - link "Automated testing platforms" [ref=e50] [cursor=pointer]:
+          - img [ref=e52]
+          - text: Automated testing platforms
+        - link "Automation Testing" [ref=e54] [cursor=pointer]:
+          - img [ref=e56]
+          - text: Automation Testing
+        - link "Robotic process automation" [ref=e58] [cursor=pointer]:
+          - img [ref=e60]
+          - text: Robotic process automation
+        - link "Software testing certifications" [ref=e62] [cursor=pointer]:
+          - img [ref=e64]
+          - text: Software testing certifications
+        - link "Programming IDEs" [ref=e66] [cursor=pointer]:
+          - img [ref=e68]
+          - text: Programming IDEs
+        - link "Web development courses" [ref=e70] [cursor=pointer]:
+          - img [ref=e72]
+          - text: Web development courses
+        - link "API testing frameworks" [ref=e74] [cursor=pointer]:
+          - img [ref=e76]
+          - text: API testing frameworks
+        - link "E-commerce website builders" [ref=e78] [cursor=pointer]:
+          - img [ref=e80]
+          - text: E-commerce website builders
+        - link "JavaScript programming guides" [ref=e82] [cursor=pointer]:
+          - img [ref=e84]
+          - text: JavaScript programming guides
+        - link "Automation software development" [ref=e86] [cursor=pointer]:
+          - img [ref=e88]
+          - text: Automation software development
+  - generic [ref=e90]:
+    - generic [ref=e94]:
+      - list [ref=e97]:
+        - listitem [ref=e98]:
+          - link "Single Iframe" [ref=e99]:
+            - /url: "#Single"
+          - link "Website development services" [ref=e100] [cursor=pointer]:
+            - img [ref=e102]
+            - text: Website development services
+        - listitem [ref=e104]:
+          - link "Iframe with in an Iframe" [ref=e105] [cursor=pointer]:
+            - /url: "#Multiple"
+      - iframe [ref=e107]: <p>Your browser does not support iframes.</p>:
+        - generic [ref=f1e3]:
+          - heading "iFrame Demo" [level=5] [ref=f1e4]
+          - textbox [ref=f1e7]
+    - generic [ref=e109]:
+      - insertion [ref=e112]:
+        - generic [ref=e114]:
+          - generic "These are topics related to the article that might interest you" [ref=e115]: Discover more
+          - link "Automation testing tools" [ref=e116] [cursor=pointer]:
+            - img [ref=e118]
+            - text: Automation testing tools
+          - link "Test automation" [ref=e120] [cursor=pointer]:
+            - img [ref=e122]
+            - text: Test automation
+          - link "Automated testing platforms" [ref=e124] [cursor=pointer]:
+            - img [ref=e126]
+            - text: Automated testing platforms
+          - link "Cloud computing services" [ref=e128] [cursor=pointer]:
+            - img [ref=e130]
+            - text: Cloud computing services
+          - link "Software testing certifications" [ref=e132] [cursor=pointer]:
+            - img [ref=e134]
+            - text: Software testing certifications
+          - link "Website hosting plans" [ref=e136] [cursor=pointer]:
+            - img [ref=e138]
+            - text: Website hosting plans
+          - link "Responsive design templates" [ref=e140] [cursor=pointer]:
+            - img [ref=e142]
+            - text: Responsive design templates
+          - link "Test automation consulting" [ref=e144] [cursor=pointer]:
+            - img [ref=e146]
+            - text: Test automation consulting
+          - link "browser" [ref=e148] [cursor=pointer]:
+            - img [ref=e150]
+            - text: browser
+          - link "Software testing services" [ref=e152] [cursor=pointer]:
+            - img [ref=e154]
+            - text: Software testing services
+      - insertion [ref=e158]:
+        - generic [ref=e160]:
+          - generic "These are topics related to the article that might interest you" [ref=e161]: Discover more
+          - link "Web browser development tools" [ref=e162] [cursor=pointer]:
+            - img [ref=e164]
+            - text: Web browser development tools
+          - link "JavaScript programming guides" [ref=e166] [cursor=pointer]:
+            - img [ref=e168]
+            - text: JavaScript programming guides
+          - link "Software testing certifications" [ref=e170] [cursor=pointer]:
+            - img [ref=e172]
+            - text: Software testing certifications
+          - link "Web frame tutorial" [ref=e174] [cursor=pointer]:
+            - img [ref=e176]
+            - text: Web frame tutorial
+          - link "Technical support services" [ref=e178] [cursor=pointer]:
+            - img [ref=e180]
+            - text: Technical support services
+          - link "API testing frameworks" [ref=e182] [cursor=pointer]:
+            - img [ref=e184]
+            - text: API testing frameworks
+          - link "Domain name registration" [ref=e186] [cursor=pointer]:
+            - img [ref=e188]
+            - text: Domain name registration
+          - link "Robotic process automation" [ref=e190] [cursor=pointer]:
+            - img [ref=e192]
+            - text: Robotic process automation
+          - link "Test automation consulting" [ref=e194] [cursor=pointer]:
+            - img [ref=e196]
+            - text: Test automation consulting
+          - link "Website hosting plans" [ref=e198] [cursor=pointer]:
+            - img [ref=e200]
+            - text: Website hosting plans
+      - insertion [ref=e204]:
+        - generic [ref=e206]:
+          - generic "These are topics related to the article that might interest you" [ref=e207]: Discover more
+          - link "Test automation" [ref=e208] [cursor=pointer]:
+            - img [ref=e210]
+            - text: Test automation
+          - link "Quality assurance solutions" [ref=e212] [cursor=pointer]:
+            - img [ref=e214]
+            - text: Quality assurance solutions
+          - link "browser" [ref=e216] [cursor=pointer]:
+            - img [ref=e218]
+            - text: browser
+          - link "Web browser" [ref=e220] [cursor=pointer]:
+            - img [ref=e222]
+            - text: Web browser
+          - link "UI UX design services" [ref=e224] [cursor=pointer]:
+            - img [ref=e226]
+            - text: UI UX design services
+          - link "API testing frameworks" [ref=e228] [cursor=pointer]:
+            - img [ref=e230]
+            - text: API testing frameworks
+          - link "Automated testing platforms" [ref=e232] [cursor=pointer]:
+            - img [ref=e234]
+            - text: Automated testing platforms
+          - link "Iframe integration support" [ref=e236] [cursor=pointer]:
+            - img [ref=e238]
+            - text: Iframe integration support
+          - link "Content management systems CMS" [ref=e240] [cursor=pointer]:
+            - img [ref=e242]
+            - text: Content management systems CMS
+          - link "Automation Testing" [ref=e244] [cursor=pointer]:
+            - img [ref=e246]
+            - text: Automation Testing
+      - insertion [ref=e250]:
+        - generic [ref=e252]:
+          - generic "These are topics related to the article that might interest you" [ref=e253]: Discover more
+          - link "Front-end development tutorials" [ref=e254] [cursor=pointer]:
+            - img [ref=e256]
+            - text: Front-end development tutorials
+          - link "Content management systems CMS" [ref=e258] [cursor=pointer]:
+            - img [ref=e260]
+            - text: Content management systems CMS
+          - link "Domain name registration" [ref=e262] [cursor=pointer]:
+            - img [ref=e264]
+            - text: Domain name registration
+          - link "Automation software development" [ref=e266] [cursor=pointer]:
+            - img [ref=e268]
+            - text: Automation software development
+          - link "Test automation consulting" [ref=e270] [cursor=pointer]:
+            - img [ref=e272]
+            - text: Test automation consulting
+          - link "UI UX design services" [ref=e274] [cursor=pointer]:
+            - img [ref=e276]
+            - text: UI UX design services
+          - link "browser" [ref=e278] [cursor=pointer]:
+            - img [ref=e280]
+            - text: browser
+          - link "Responsive design templates" [ref=e282] [cursor=pointer]:
+            - img [ref=e284]
+            - text: Responsive design templates
+          - link "Selenium testing services" [ref=e286] [cursor=pointer]:
+            - img [ref=e288]
+            - text: Selenium testing services
+          - link "Cloud computing services" [ref=e290] [cursor=pointer]:
+            - img [ref=e292]
+            - text: Cloud computing services
+      - generic [ref=e297]:
+        - generic [ref=e298]:
+          - text: "\"@ 2016\""
+          - link "Automation Testing" [ref=e299] [cursor=pointer]:
+            - /url: "#"
+          - text: "\"All Rights Reserved.\""
+        - generic [ref=e300]:
+          - link "" [ref=e301] [cursor=pointer]:
+            - /url: https://www.facebook.com/automationtesting2016/
+            - generic [ref=e302]: 
+          - link "" [ref=e303] [cursor=pointer]:
+            - /url: https://twitter.com/krishnasakinala
+            - generic [ref=e304]: 
+          - link "" [ref=e305] [cursor=pointer]:
+            - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+            - generic [ref=e306]: 
+          - link "" [ref=e307] [cursor=pointer]:
+            - /url: https://plus.google.com/105286300926085335367
+            - generic [ref=e308]: 
+          - link "" [ref=e309] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+            - generic [ref=e310]: 
+```

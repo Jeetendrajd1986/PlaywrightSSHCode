@@ -18,6 +18,8 @@ page.on('dialog',async(dialog)=>
     expect(dialog.type()).toContain("alert");
     expect(dialog.message()).toContain("I am a JS Alert");
     await dialog.accept();  //Clcik on OK button
+
+    page.frameLocator('iframe[name="iframe-name"]').locator('selector-in-iframe')
 })
 
 await page.locator("button[onclick='jsAlert()']").click();

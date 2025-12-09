@@ -1,0 +1,253 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "image not displaying" [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+        - img "image not displaying" [ref=e8]
+      - generic [ref=e9]:
+        - heading "Automation Demo Site" [level=1] [ref=e10]
+        - link "Robotic process automation" [ref=e11] [cursor=pointer]:
+          - img [ref=e13]
+          - text: Robotic process automation
+    - navigation [ref=e15]:
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - link "Home" [ref=e20] [cursor=pointer]:
+            - /url: Index.html
+        - listitem [ref=e21]:
+          - link "Register" [ref=e22] [cursor=pointer]:
+            - /url: Register.html
+        - listitem [ref=e23]:
+          - link "WebTable" [ref=e24] [cursor=pointer]:
+            - /url: WebTable.html
+        - listitem [ref=e25]:
+          - link "SwitchTo" [ref=e26] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e27]: 
+        - listitem [ref=e28]:
+          - link "Widgets" [ref=e29] [cursor=pointer]:
+            - /url: Widgets.html
+          - generic [ref=e30]: 
+        - listitem [ref=e31]:
+          - link "Interactions" [ref=e32] [cursor=pointer]:
+            - /url: Interactions.html
+          - generic [ref=e33]: 
+        - listitem [ref=e34]:
+          - link "Video" [ref=e35] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e36]: 
+        - listitem [ref=e37]:
+          - link "WYSIWYG" [ref=e38] [cursor=pointer]:
+            - /url: WYSIWYG.html
+          - generic [ref=e39]: 
+        - listitem [ref=e40]:
+          - link "More" [ref=e41] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e42]: 
+        - listitem [ref=e43]:
+          - link "Practice Site" [ref=e44] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+    - insertion [ref=e46]:
+      - iframe [ref=e48]:
+        - generic [active] [ref=f9e1]:
+          - generic [ref=f9e7]:
+            - generic [ref=f9e8]:
+              - generic "TechTarget" [ref=f9e9]:
+                - link "Advanced Ai" [ref=f9e10] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C0Vh6cd83aZCZG7CVssUPgKTigQ_x1IKAhAHhya6dyhPAjbcBEAEgj763L2DlgoCAvA6gAfzlhP0DyAEBqAMByAPDBKoE_wFP0Gzv16-wXSy0Cmk_wOEkg5k9X1tekOVfpC5sojfdZpHTmkC6QmGud6vKm0ybOd2i06RECoRyEjozds1Km7ZbBva_RLdED5Z1uOlrZQsSiopXxR8S7b8IvptK3rC4pALUZ4q_uEAMXtlvtLGU7fYj9DcykLuvjkOb_rN8ZgDpvGCkM8kj3zJV56NYJtDMyf1dQL7DCHFNTik1j2WPwnSbWOtLiSOkYLvl7Mt0Wu5fETWxmMl2M4RYt65mRzEgMlqNh1TCWtwTPJBoK186zDwlLnOliZhYUV7YPa7x0vgw2QiVbyx89YC-sbYYWynd650RnN5NtLhSO3TxdSi1ECzABPjLgOuDBYgFv9LDjFKgBmaAB-yZ-wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliT-uLpjLCRA7EJCSbmMzZWzpyACgGYCwHICwHaDBEKCxDAw8vL-o3yx_gBEgIBA6oNAklOyA0B6g0TCLL09OmMsJEDFbCKrAIdAJI48PANAogOCdgTAogUAtAVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYFQoKxq3Y7v______ARICsV8YZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE&num=1&cid=CAQSvwEAwksa0btJMWkeGYXQrC-NknTKc8J6DgAkazEb93pFlBC1u_xgS992kEHROSib4aOwJ-E0u-f33Hz5zZ1olfqOu0uz9DQnkE0Q4Swj-heQwOArvCslwhM_eqxiD2ItsoWoyJ-wfY8PPjtZ2IzcAkg2O1k0lTQxBLPDKDyyBSoIhGQr6Ecbo87uPZYBosIlA8qa8mSIxinlrFNupNjocLGPGSFYICRD9OTNT2fnH20jT6qdML-GINzMyWxHXxndGRgB&sig=AOD64_2RInA8n4GOaE0NY0_kQ_BwqX_IBQ&client=ca-pub-9173866185064071&rf=1&nb=0&adurl=https://www.techtarget.com/searchenterpriseai/Accelerate-AI%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26utm_campaign%3DIntelRedHat_Embed_sEAI_Intl%26Offer%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26gad_source%3D5%26gad_campaignid%3D22037981503%26gclid%3DEAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE
+              - generic "TechTarget" [ref=f9e11]:
+                - link "Advanced Ai" [ref=f9e12] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C0Vh6cd83aZCZG7CVssUPgKTigQ_x1IKAhAHhya6dyhPAjbcBEAEgj763L2DlgoCAvA6gAfzlhP0DyAEBqAMByAPDBKoE_wFP0Gzv16-wXSy0Cmk_wOEkg5k9X1tekOVfpC5sojfdZpHTmkC6QmGud6vKm0ybOd2i06RECoRyEjozds1Km7ZbBva_RLdED5Z1uOlrZQsSiopXxR8S7b8IvptK3rC4pALUZ4q_uEAMXtlvtLGU7fYj9DcykLuvjkOb_rN8ZgDpvGCkM8kj3zJV56NYJtDMyf1dQL7DCHFNTik1j2WPwnSbWOtLiSOkYLvl7Mt0Wu5fETWxmMl2M4RYt65mRzEgMlqNh1TCWtwTPJBoK186zDwlLnOliZhYUV7YPa7x0vgw2QiVbyx89YC-sbYYWynd650RnN5NtLhSO3TxdSi1ECzABPjLgOuDBYgFv9LDjFKgBmaAB-yZ-wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliT-uLpjLCRA7EJCSbmMzZWzpyACgGYCwHICwHaDBEKCxDAw8vL-o3yx_gBEgIBA6oNAklOyA0B6g0TCLL09OmMsJEDFbCKrAIdAJI48PANAogOCdgTAogUAtAVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYFQoKxq3Y7v______ARICsV8YZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE&num=1&cid=CAQSvwEAwksa0btJMWkeGYXQrC-NknTKc8J6DgAkazEb93pFlBC1u_xgS992kEHROSib4aOwJ-E0u-f33Hz5zZ1olfqOu0uz9DQnkE0Q4Swj-heQwOArvCslwhM_eqxiD2ItsoWoyJ-wfY8PPjtZ2IzcAkg2O1k0lTQxBLPDKDyyBSoIhGQr6Ecbo87uPZYBosIlA8qa8mSIxinlrFNupNjocLGPGSFYICRD9OTNT2fnH20jT6qdML-GINzMyWxHXxndGRgB&sig=AOD64_2RInA8n4GOaE0NY0_kQ_BwqX_IBQ&client=ca-pub-9173866185064071&rf=1&nb=0&adurl=https://www.techtarget.com/searchenterpriseai/Accelerate-AI%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26utm_campaign%3DIntelRedHat_Embed_sEAI_Intl%26Offer%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26gad_source%3D5%26gad_campaignid%3D22037981503%26gclid%3DEAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE
+              - link "Simplify MLOps and scale AI workloads with cutting-edge cloud technologies." [ref=f9e14] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C0Vh6cd83aZCZG7CVssUPgKTigQ_x1IKAhAHhya6dyhPAjbcBEAEgj763L2DlgoCAvA6gAfzlhP0DyAEBqAMByAPDBKoE_wFP0Gzv16-wXSy0Cmk_wOEkg5k9X1tekOVfpC5sojfdZpHTmkC6QmGud6vKm0ybOd2i06RECoRyEjozds1Km7ZbBva_RLdED5Z1uOlrZQsSiopXxR8S7b8IvptK3rC4pALUZ4q_uEAMXtlvtLGU7fYj9DcykLuvjkOb_rN8ZgDpvGCkM8kj3zJV56NYJtDMyf1dQL7DCHFNTik1j2WPwnSbWOtLiSOkYLvl7Mt0Wu5fETWxmMl2M4RYt65mRzEgMlqNh1TCWtwTPJBoK186zDwlLnOliZhYUV7YPa7x0vgw2QiVbyx89YC-sbYYWynd650RnN5NtLhSO3TxdSi1ECzABPjLgOuDBYgFv9LDjFKgBmaAB-yZ-wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliT-uLpjLCRA7EJCSbmMzZWzpyACgGYCwHICwHaDBEKCxDAw8vL-o3yx_gBEgIBA6oNAklOyA0B6g0TCLL09OmMsJEDFbCKrAIdAJI48PANAogOCdgTAogUAtAVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYFQoKxq3Y7v______ARICsV8YZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE&num=1&cid=CAQSvwEAwksa0btJMWkeGYXQrC-NknTKc8J6DgAkazEb93pFlBC1u_xgS992kEHROSib4aOwJ-E0u-f33Hz5zZ1olfqOu0uz9DQnkE0Q4Swj-heQwOArvCslwhM_eqxiD2ItsoWoyJ-wfY8PPjtZ2IzcAkg2O1k0lTQxBLPDKDyyBSoIhGQr6Ecbo87uPZYBosIlA8qa8mSIxinlrFNupNjocLGPGSFYICRD9OTNT2fnH20jT6qdML-GINzMyWxHXxndGRgB&sig=AOD64_2RInA8n4GOaE0NY0_kQ_BwqX_IBQ&client=ca-pub-9173866185064071&rf=1&nb=7&adurl=https://www.techtarget.com/searchenterpriseai/Accelerate-AI%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26utm_campaign%3DIntelRedHat_Embed_sEAI_Intl%26Offer%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26gad_source%3D5%26gad_campaignid%3D22037981503%26gclid%3DEAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE
+            - generic [ref=f9e17]:
+              - generic "TechTarget" [ref=f9e19]:
+                - link "TechTarget" [ref=f9e20] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C0Vh6cd83aZCZG7CVssUPgKTigQ_x1IKAhAHhya6dyhPAjbcBEAEgj763L2DlgoCAvA6gAfzlhP0DyAEBqAMByAPDBKoE_wFP0Gzv16-wXSy0Cmk_wOEkg5k9X1tekOVfpC5sojfdZpHTmkC6QmGud6vKm0ybOd2i06RECoRyEjozds1Km7ZbBva_RLdED5Z1uOlrZQsSiopXxR8S7b8IvptK3rC4pALUZ4q_uEAMXtlvtLGU7fYj9DcykLuvjkOb_rN8ZgDpvGCkM8kj3zJV56NYJtDMyf1dQL7DCHFNTik1j2WPwnSbWOtLiSOkYLvl7Mt0Wu5fETWxmMl2M4RYt65mRzEgMlqNh1TCWtwTPJBoK186zDwlLnOliZhYUV7YPa7x0vgw2QiVbyx89YC-sbYYWynd650RnN5NtLhSO3TxdSi1ECzABPjLgOuDBYgFv9LDjFKgBmaAB-yZ-wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliT-uLpjLCRA7EJCSbmMzZWzpyACgGYCwHICwHaDBEKCxDAw8vL-o3yx_gBEgIBA6oNAklOyA0B6g0TCLL09OmMsJEDFbCKrAIdAJI48PANAogOCdgTAogUAtAVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYFQoKxq3Y7v______ARICsV8YZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE&num=1&cid=CAQSvwEAwksa0btJMWkeGYXQrC-NknTKc8J6DgAkazEb93pFlBC1u_xgS992kEHROSib4aOwJ-E0u-f33Hz5zZ1olfqOu0uz9DQnkE0Q4Swj-heQwOArvCslwhM_eqxiD2ItsoWoyJ-wfY8PPjtZ2IzcAkg2O1k0lTQxBLPDKDyyBSoIhGQr6Ecbo87uPZYBosIlA8qa8mSIxinlrFNupNjocLGPGSFYICRD9OTNT2fnH20jT6qdML-GINzMyWxHXxndGRgB&sig=AOD64_2RInA8n4GOaE0NY0_kQ_BwqX_IBQ&client=ca-pub-9173866185064071&rf=1&nb=1&adurl=https://www.techtarget.com/searchenterpriseai/Accelerate-AI%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26utm_campaign%3DIntelRedHat_Embed_sEAI_Intl%26Offer%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26gad_source%3D5%26gad_campaignid%3D22037981503%26gclid%3DEAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE
+              - link "OPEN" [ref=f9e23] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C0Vh6cd83aZCZG7CVssUPgKTigQ_x1IKAhAHhya6dyhPAjbcBEAEgj763L2DlgoCAvA6gAfzlhP0DyAEBqAMByAPDBKoE_wFP0Gzv16-wXSy0Cmk_wOEkg5k9X1tekOVfpC5sojfdZpHTmkC6QmGud6vKm0ybOd2i06RECoRyEjozds1Km7ZbBva_RLdED5Z1uOlrZQsSiopXxR8S7b8IvptK3rC4pALUZ4q_uEAMXtlvtLGU7fYj9DcykLuvjkOb_rN8ZgDpvGCkM8kj3zJV56NYJtDMyf1dQL7DCHFNTik1j2WPwnSbWOtLiSOkYLvl7Mt0Wu5fETWxmMl2M4RYt65mRzEgMlqNh1TCWtwTPJBoK186zDwlLnOliZhYUV7YPa7x0vgw2QiVbyx89YC-sbYYWynd650RnN5NtLhSO3TxdSi1ECzABPjLgOuDBYgFv9LDjFKgBmaAB-yZ-wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliT-uLpjLCRA7EJCSbmMzZWzpyACgGYCwHICwHaDBEKCxDAw8vL-o3yx_gBEgIBA6oNAklOyA0B6g0TCLL09OmMsJEDFbCKrAIdAJI48PANAogOCdgTAogUAtAVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYFQoKxq3Y7v______ARICsV8YZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE&num=1&cid=CAQSvwEAwksa0btJMWkeGYXQrC-NknTKc8J6DgAkazEb93pFlBC1u_xgS992kEHROSib4aOwJ-E0u-f33Hz5zZ1olfqOu0uz9DQnkE0Q4Swj-heQwOArvCslwhM_eqxiD2ItsoWoyJ-wfY8PPjtZ2IzcAkg2O1k0lTQxBLPDKDyyBSoIhGQr6Ecbo87uPZYBosIlA8qa8mSIxinlrFNupNjocLGPGSFYICRD9OTNT2fnH20jT6qdML-GINzMyWxHXxndGRgB&sig=AOD64_2RInA8n4GOaE0NY0_kQ_BwqX_IBQ&client=ca-pub-9173866185064071&rf=1&nb=8&adurl=https://www.techtarget.com/searchenterpriseai/Accelerate-AI%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26utm_campaign%3DIntelRedHat_Embed_sEAI_Intl%26Offer%3Dsy_lp07102025GOOGOTHR_GsidsEnterpriseAI_Intel_Embed_IO331590%26gad_source%3D5%26gad_campaignid%3D22037981503%26gclid%3DEAIaIQobChMI0JXj6YywkQMVsIqsAh0AkjjwEAEYASAAEgI6v_D_BwE
+                - generic [ref=f9e26]:
+                  - generic [ref=f9e27]: OPEN
+                  - img [ref=f9e28]
+          - img [ref=f9e33] [cursor=pointer]
+          - button [ref=f9e35] [cursor=pointer]:
+            - img [ref=f9e36]
+          - iframe
+  - generic [ref=e49]:
+    - generic [ref=e53]:
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - link "Single Iframe" [ref=e58] [cursor=pointer]:
+            - /url: "#Single"
+          - link "Website development services" [ref=e59] [cursor=pointer]:
+            - img [ref=e61]
+            - text: Website development services
+        - listitem [ref=e63]:
+          - link "Iframe with in an Iframe" [expanded] [ref=e64]:
+            - /url: "#Multiple"
+      - iframe [active] [ref=e66]: <p>Your browser does not support iframes.</p>:
+        - generic [ref=f2e4]:
+          - heading "Nested iFrames" [level=5] [ref=f2e5]
+          - iframe [active] [ref=f2e6]: <p>Your browser does not support iframes.</p>:
+            - generic [ref=f3e3]:
+              - heading "iFrame Demo" [level=5] [ref=f3e4]
+              - textbox [active] [ref=f3e7]: Welcome to nested frames
+    - generic [ref=e68]:
+      - insertion [ref=e71]:
+        - generic [ref=e73]:
+          - generic "These are topics related to the article that might interest you" [ref=e74]: Discover more
+          - link "Web frame tutorial" [ref=e75] [cursor=pointer]:
+            - img [ref=e77]
+            - text: Web frame tutorial
+          - link "Virtual private servers" [ref=e79] [cursor=pointer]:
+            - img [ref=e81]
+            - text: Virtual private servers
+          - link "Test automation consulting" [ref=e83] [cursor=pointer]:
+            - img [ref=e85]
+            - text: Test automation consulting
+          - link "Automation Testing" [ref=e87] [cursor=pointer]:
+            - img [ref=e89]
+            - text: Automation Testing
+          - link "Domain name registration" [ref=e91] [cursor=pointer]:
+            - img [ref=e93]
+            - text: Domain name registration
+          - link "Automation software development" [ref=e95] [cursor=pointer]:
+            - img [ref=e97]
+            - text: Automation software development
+          - link "Selenium testing services" [ref=e99] [cursor=pointer]:
+            - img [ref=e101]
+            - text: Selenium testing services
+          - link "Cloud computing services" [ref=e103] [cursor=pointer]:
+            - img [ref=e105]
+            - text: Cloud computing services
+          - link "Selenium WebDriver training" [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - text: Selenium WebDriver training
+          - link "Front-end development tutorials" [ref=e111] [cursor=pointer]:
+            - img [ref=e113]
+            - text: Front-end development tutorials
+      - insertion [ref=e117]:
+        - generic [ref=e119]:
+          - generic "These are topics related to the article that might interest you" [ref=e120]: Discover more
+          - link "API testing frameworks" [ref=e121] [cursor=pointer]:
+            - img [ref=e123]
+            - text: API testing frameworks
+          - link "Website hosting plans" [ref=e125] [cursor=pointer]:
+            - img [ref=e127]
+            - text: Website hosting plans
+          - link "Programming IDEs" [ref=e129] [cursor=pointer]:
+            - img [ref=e131]
+            - text: Programming IDEs
+          - link "JavaScript programming guides" [ref=e133] [cursor=pointer]:
+            - img [ref=e135]
+            - text: JavaScript programming guides
+          - link "Domain name registration" [ref=e137] [cursor=pointer]:
+            - img [ref=e139]
+            - text: Domain name registration
+          - link "Web browser" [ref=e141] [cursor=pointer]:
+            - img [ref=e143]
+            - text: Web browser
+          - link "browser" [ref=e145] [cursor=pointer]:
+            - img [ref=e147]
+            - text: browser
+          - link "Technical support services" [ref=e149] [cursor=pointer]:
+            - img [ref=e151]
+            - text: Technical support services
+          - link "Frame element tutorials" [ref=e153] [cursor=pointer]:
+            - img [ref=e155]
+            - text: Frame element tutorials
+          - link "Iframe integration support" [ref=e157] [cursor=pointer]:
+            - img [ref=e159]
+            - text: Iframe integration support
+      - insertion [ref=e163]:
+        - generic [ref=e165]:
+          - generic "These are topics related to the article that might interest you" [ref=e166]: Discover more
+          - link "Front-end development tutorials" [ref=e167] [cursor=pointer]:
+            - img [ref=e169]
+            - text: Front-end development tutorials
+          - link "Software testing services" [ref=e171] [cursor=pointer]:
+            - img [ref=e173]
+            - text: Software testing services
+          - link "HTML and CSS books" [ref=e175] [cursor=pointer]:
+            - img [ref=e177]
+            - text: HTML and CSS books
+          - link "Website UI/UX" [ref=e179] [cursor=pointer]:
+            - img [ref=e181]
+            - text: Website UI/UX
+          - link "Web frame tutorial" [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - text: Web frame tutorial
+          - link "Web development courses" [ref=e187] [cursor=pointer]:
+            - img [ref=e189]
+            - text: Web development courses
+          - link "E-commerce website builders" [ref=e191] [cursor=pointer]:
+            - img [ref=e193]
+            - text: E-commerce website builders
+          - link "browser" [ref=e195] [cursor=pointer]:
+            - img [ref=e197]
+            - text: browser
+          - link "Virtual private servers" [ref=e199] [cursor=pointer]:
+            - img [ref=e201]
+            - text: Virtual private servers
+          - link "API testing frameworks" [ref=e203] [cursor=pointer]:
+            - img [ref=e205]
+            - text: API testing frameworks
+      - insertion [ref=e209]:
+        - generic [ref=e211]:
+          - generic "These are topics related to the article that might interest you" [ref=e212]: Discover more
+          - link "Software testing tools" [ref=e213] [cursor=pointer]:
+            - img [ref=e215]
+            - text: Software testing tools
+          - link "Software testing certifications" [ref=e217] [cursor=pointer]:
+            - img [ref=e219]
+            - text: Software testing certifications
+          - link "Website UI/UX" [ref=e221] [cursor=pointer]:
+            - img [ref=e223]
+            - text: Website UI/UX
+          - link "Iframe integration support" [ref=e225] [cursor=pointer]:
+            - img [ref=e227]
+            - text: Iframe integration support
+          - link "UI UX design services" [ref=e229] [cursor=pointer]:
+            - img [ref=e231]
+            - text: UI UX design services
+          - link "Selenium automation courses" [ref=e233] [cursor=pointer]:
+            - img [ref=e235]
+            - text: Selenium automation courses
+          - link "Automation testing tools" [ref=e237] [cursor=pointer]:
+            - img [ref=e239]
+            - text: Automation testing tools
+          - link "Business process automation" [ref=e241] [cursor=pointer]:
+            - img [ref=e243]
+            - text: Business process automation
+          - link "Selenium testing services" [ref=e245] [cursor=pointer]:
+            - img [ref=e247]
+            - text: Selenium testing services
+          - link "JavaScript programming guides" [ref=e249] [cursor=pointer]:
+            - img [ref=e251]
+            - text: JavaScript programming guides
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - text: "\"@ 2016\""
+          - link "Automation Testing" [ref=e258] [cursor=pointer]:
+            - /url: "#"
+          - text: "\"All Rights Reserved.\""
+        - generic [ref=e259]:
+          - link "" [ref=e260] [cursor=pointer]:
+            - /url: https://www.facebook.com/automationtesting2016/
+            - generic [ref=e261]: 
+          - link "" [ref=e262] [cursor=pointer]:
+            - /url: https://twitter.com/krishnasakinala
+            - generic [ref=e263]: 
+          - link "" [ref=e264] [cursor=pointer]:
+            - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+            - generic [ref=e265]: 
+          - link "" [ref=e266] [cursor=pointer]:
+            - /url: https://plus.google.com/105286300926085335367
+            - generic [ref=e267]: 
+          - link "" [ref=e268] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+            - generic [ref=e269]: 
+```

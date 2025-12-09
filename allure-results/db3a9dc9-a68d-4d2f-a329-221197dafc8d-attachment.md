@@ -1,0 +1,235 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "image not displaying" [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+        - img "image not displaying" [ref=e8]
+      - heading "Automation Demo Site" [level=1] [ref=e10]
+    - navigation [ref=e11]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: Index.html
+        - listitem [ref=e17]:
+          - link "Register" [ref=e18] [cursor=pointer]:
+            - /url: Register.html
+        - listitem [ref=e19]:
+          - link "WebTable" [ref=e20] [cursor=pointer]:
+            - /url: WebTable.html
+        - listitem [ref=e21]:
+          - link "SwitchTo" [ref=e22] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e23]: 
+        - listitem [ref=e24]:
+          - link "Widgets" [ref=e25] [cursor=pointer]:
+            - /url: Widgets.html
+          - generic [ref=e26]: 
+        - listitem [ref=e27]:
+          - link "Interactions" [ref=e28] [cursor=pointer]:
+            - /url: Interactions.html
+          - generic [ref=e29]: 
+        - listitem [ref=e30]:
+          - link "Video" [ref=e31] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e32]: 
+        - listitem [ref=e33]:
+          - link "WYSIWYG" [ref=e34] [cursor=pointer]:
+            - /url: WYSIWYG.html
+          - generic [ref=e35]: 
+        - listitem [ref=e36]:
+          - link "More" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e38]: 
+        - listitem [ref=e39]:
+          - link "Practice Site" [ref=e40] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+    - insertion [ref=e42]:
+      - generic [ref=e44]:
+        - generic "These are topics related to the article that might interest you" [ref=e45]: Discover more
+        - link "Automation software development" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - text: Automation software development
+        - link "Robotic process automation" [ref=e50] [cursor=pointer]:
+          - img [ref=e52]
+          - text: Robotic process automation
+        - link "JavaScript programming guides" [ref=e54] [cursor=pointer]:
+          - img [ref=e56]
+          - text: JavaScript programming guides
+        - link "Website development services" [ref=e58] [cursor=pointer]:
+          - img [ref=e60]
+          - text: Website development services
+        - link "Virtual private servers" [ref=e62] [cursor=pointer]:
+          - img [ref=e64]
+          - text: Virtual private servers
+        - link "Software testing services" [ref=e66] [cursor=pointer]:
+          - img [ref=e68]
+          - text: Software testing services
+        - link "Automation Testing" [ref=e70] [cursor=pointer]:
+          - img [ref=e72]
+          - text: Automation Testing
+        - link "Business process automation" [ref=e74] [cursor=pointer]:
+          - img [ref=e76]
+          - text: Business process automation
+        - link "Website performance optimization" [ref=e78] [cursor=pointer]:
+          - img [ref=e80]
+          - text: Website performance optimization
+        - link "Web frame tutorial" [ref=e82] [cursor=pointer]:
+          - img [ref=e84]
+          - text: Web frame tutorial
+  - generic [ref=e86]:
+    - generic [ref=e90]:
+      - list [ref=e93]:
+        - listitem [ref=e94]:
+          - link "Single Iframe" [ref=e95] [cursor=pointer]:
+            - /url: "#Single"
+        - listitem [ref=e96]:
+          - link "Iframe with in an Iframe" [expanded] [ref=e97]:
+            - /url: "#Multiple"
+      - iframe [active] [ref=e99]: <p>Your browser does not support iframes.</p>:
+        - generic [ref=f2e4]:
+          - heading "Nested iFrames" [level=5] [ref=f2e5]
+          - iframe [active] [ref=f2e6]: <p>Your browser does not support iframes.</p>:
+            - generic [ref=f3e3]:
+              - heading "iFrame Demo" [level=5] [ref=f3e4]
+              - textbox [active] [ref=f3e7]: Welcome to nested frames
+    - generic [ref=e101]:
+      - insertion [ref=e104]:
+        - generic [ref=e106]:
+          - generic "These are topics related to the article that might interest you" [ref=e107]: Discover more
+          - link "Software testing tools" [ref=e108] [cursor=pointer]:
+            - img [ref=e110]
+            - text: Software testing tools
+          - link "Programming IDEs" [ref=e112] [cursor=pointer]:
+            - img [ref=e114]
+            - text: Programming IDEs
+          - link "Software testing services" [ref=e116] [cursor=pointer]:
+            - img [ref=e118]
+            - text: Software testing services
+          - link "Front-end development tutorials" [ref=e120] [cursor=pointer]:
+            - img [ref=e122]
+            - text: Front-end development tutorials
+          - link "Virtual private servers" [ref=e124] [cursor=pointer]:
+            - img [ref=e126]
+            - text: Virtual private servers
+          - link "Cloud computing services" [ref=e128] [cursor=pointer]:
+            - img [ref=e130]
+            - text: Cloud computing services
+          - link "Website development services" [ref=e132] [cursor=pointer]:
+            - img [ref=e134]
+            - text: Website development services
+          - link "Quality assurance solutions" [ref=e136] [cursor=pointer]:
+            - img [ref=e138]
+            - text: Quality assurance solutions
+          - link "Business process automation" [ref=e140] [cursor=pointer]:
+            - img [ref=e142]
+            - text: Business process automation
+          - link "HTML and CSS books" [ref=e144] [cursor=pointer]:
+            - img [ref=e146]
+            - text: HTML and CSS books
+      - insertion [ref=e150]:
+        - iframe [ref=e152]:
+          - iframe [ref=f6e1]:
+            - generic [active] [ref=f11e1]:
+              - link "Advertisement" [ref=f11e6] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CVRz--d83afqmH_uU_tMPv8uCkQ2gn4WmgwGGroTCkhXoh4WeCxABII--ty9g5YKAgLwOoAHX54vbPsgBCakCyfKNkUqKsz6oAwHIA0iqBPMBT9A4lspHe41jmcTPkXA-6UjG3hW6_AqMauFwFYSnH4k4w38wxJGSYkhXDossaKLSvcBhLetxspdWNs-GZkJNfSbfdgefNANm_Mpc90XqlMUgM6bE7M3u8CcOIub5QT5c6BB7FGREWtr-4eVDTrWAvqEQYMOf_9jVh3GlXaTOQlUeXMjuVwbSvJSHthtrM1rmQXYykGIn5MJCOM2OPf2jKxAue5l7KDAVRZ-HyXK_RX8HxvCUCEuFne44t3DWrmcVM8ZihYhEgPg7PQMO85PCzy_a7Mweq21KivOXxEwM3G35mtzcWp22VGAhRdvU7NRWS9pLwATe7bKdwAWIBdTGrMJWoAYugAfXn9y6GagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WOTgzqqNsJEDsQlqsnXVAEe9kYAKAZgLAcgLAYAMAaIMCyoGCgTW2rECkAEB2gwRCgsQkNvp3rHl0oHtARICAQOqDQJJTsgNAeoNEwjkw-OqjbCRAxV7in8EHb-lINLwDQKIDgnYEwrQFQGYFgHKFgIKAPgWAYAXAbIXDhgBKgo2NjM4NjMzNTQ3uhcCOAGqGBcJAAAAAADzwUASCjY2Mzg2MzM1NDcYAbIYCRICsFMYLiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIuofUqo2wkQMVe4p_BB2_pSDSEAEYASAAEgIZOvD_BwE&num=1&cid=CAQSvgEAwksa0UvXhQhZeIlYONDcomi0Bo8IBuncsI8bSFAHQC2Le_OcDJrMkD9jLPQuMODD_kFgE4FKZVwIxKaHQ4amcVB6lfFqg7zdaZgeiwsxocoYEY6k3oLKGamrBKKffY7yKNzZtJV-LeB3xulLQerVmseU5xE0yDprFsYKKO1DYOF6GEjsoYj3R_y1lUg5PN3HMGsSNkAiLG0HMbRiLUjbgdEaTPdZAfxuYbrtLU3nBDRc-aVdKOvdNJiqe-CvGAE&sig=AOD64_0570YGG_56dVmb1HD2qu8EGsyZzA&client=ca-pub-9173866185064071&rf=1&nb=25&adurl=https://www.thelaend.de/en/discover-the-laend/%3Fpk_campaign%3DHEALTH%26pk_source%3Ddisplay%26pk_medium%3Dpaid%26pk_cid%3DIN%26pk_content%3D3-300x600%26pk_kwd%3Dbanner%26gad_source%3D5%26gad_campaignid%3D23224591188%26gclid%3DEAIaIQobChMIuofUqo2wkQMVe4p_BB2_pSDSEAEYASAAEgIZOvD_BwE
+                - iframe [ref=f11e9]:
+                  - generic [active]:
+                    - link:
+                      - /url: javascript:void(window.open(window.clickTag));
+                      - img [ref=f13e4] [cursor=pointer]
+              - img [ref=f11e13] [cursor=pointer]
+              - button [ref=f11e15] [cursor=pointer]:
+                - img [ref=f11e16]
+              - iframe
+      - insertion [ref=e155]:
+        - generic [ref=e157]:
+          - generic "These are topics related to the article that might interest you" [ref=e158]: Discover more
+          - link "Selenium testing services" [ref=e159] [cursor=pointer]:
+            - img [ref=e161]
+            - text: Selenium testing services
+          - link "Website UI/UX" [ref=e163] [cursor=pointer]:
+            - img [ref=e165]
+            - text: Website UI/UX
+          - link "Cloud computing services" [ref=e167] [cursor=pointer]:
+            - img [ref=e169]
+            - text: Cloud computing services
+          - link "Software testing services" [ref=e171] [cursor=pointer]:
+            - img [ref=e173]
+            - text: Software testing services
+          - link "API testing frameworks" [ref=e175] [cursor=pointer]:
+            - img [ref=e177]
+            - text: API testing frameworks
+          - link "Content management systems CMS" [ref=e179] [cursor=pointer]:
+            - img [ref=e181]
+            - text: Content management systems CMS
+          - link "Domain name registration" [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - text: Domain name registration
+          - link "Web development courses" [ref=e187] [cursor=pointer]:
+            - img [ref=e189]
+            - text: Web development courses
+          - link "Front-end development tutorials" [ref=e191] [cursor=pointer]:
+            - img [ref=e193]
+            - text: Front-end development tutorials
+          - link "Software testing tools" [ref=e195] [cursor=pointer]:
+            - img [ref=e197]
+            - text: Software testing tools
+      - insertion [ref=e201]:
+        - generic [ref=e203]:
+          - generic "These are topics related to the article that might interest you" [ref=e204]: Discover more
+          - link "Virtual private servers" [ref=e205] [cursor=pointer]:
+            - img [ref=e207]
+            - text: Virtual private servers
+          - link "Robotic process automation" [ref=e209] [cursor=pointer]:
+            - img [ref=e211]
+            - text: Robotic process automation
+          - link "Selenium testing services" [ref=e213] [cursor=pointer]:
+            - img [ref=e215]
+            - text: Selenium testing services
+          - link "Test automation" [ref=e217] [cursor=pointer]:
+            - img [ref=e219]
+            - text: Test automation
+          - link "Software testing services" [ref=e221] [cursor=pointer]:
+            - img [ref=e223]
+            - text: Software testing services
+          - link "Automation testing tools" [ref=e225] [cursor=pointer]:
+            - img [ref=e227]
+            - text: Automation testing tools
+          - link "Selenium WebDriver training" [ref=e229] [cursor=pointer]:
+            - img [ref=e231]
+            - text: Selenium WebDriver training
+          - link "Frame element tutorials" [ref=e233] [cursor=pointer]:
+            - img [ref=e235]
+            - text: Frame element tutorials
+          - link "Software testing tools" [ref=e237] [cursor=pointer]:
+            - img [ref=e239]
+            - text: Software testing tools
+          - link "JavaScript programming guides" [ref=e241] [cursor=pointer]:
+            - img [ref=e243]
+            - text: JavaScript programming guides
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - text: "\"@ 2016\""
+          - link "Automation Testing" [ref=e250] [cursor=pointer]:
+            - /url: "#"
+          - text: "\"All Rights Reserved.\""
+        - generic [ref=e251]:
+          - link "" [ref=e252] [cursor=pointer]:
+            - /url: https://www.facebook.com/automationtesting2016/
+            - generic [ref=e253]: 
+          - link "" [ref=e254] [cursor=pointer]:
+            - /url: https://twitter.com/krishnasakinala
+            - generic [ref=e255]: 
+          - link "" [ref=e256] [cursor=pointer]:
+            - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+            - generic [ref=e257]: 
+          - link "" [ref=e258] [cursor=pointer]:
+            - /url: https://plus.google.com/105286300926085335367
+            - generic [ref=e259]: 
+          - link "" [ref=e260] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+            - generic [ref=e261]: 
+```
