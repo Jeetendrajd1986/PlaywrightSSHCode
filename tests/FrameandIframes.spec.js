@@ -3,7 +3,7 @@ const {test,expect} = require('@playwright/test') ;
 
 
 
-test("Validate Alerts",async function({page})
+test("Validate Frames and Iframes",async function({page})
 {
 
     // Interact with elements inside the iframe   
