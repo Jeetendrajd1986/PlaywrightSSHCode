@@ -41,6 +41,7 @@ pipeline {
         stage('Run Playwright Tests') {
             steps {
                 bat '''
+                 if exist allure-results rmdir /s /q allure-results
                     npx playwright test ./tests/FileUpload.spec.js --project=chromium
                 '''
             }
