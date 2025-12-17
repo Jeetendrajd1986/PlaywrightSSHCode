@@ -13,11 +13,11 @@ pipeline {
         stage('Verify NodeJS') 
         {
             steps {
-                sh '''
+                bat '''
                   node -v
                   npm -v
                 '''
-            }
+                   }
         }
 
         stage('Checkout Code')
@@ -31,17 +31,17 @@ pipeline {
         stage('Install Dependencies')
          {
             steps {
-                sh '''
+                bat '''
                     npm install
                     npx playwright install
                 '''
             }
-         }
+        }
 
         stage('Run Playwright Tests') {
             steps {
-                sh '''
-                    npx playwright test ./tests/FileUpload.spec.js
+                bat '''
+                    npx playwright test ./tests/FileUpload.spec.js --project=chromium
                 '''
             }
         }
